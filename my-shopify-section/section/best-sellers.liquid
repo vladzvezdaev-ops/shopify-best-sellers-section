@@ -651,7 +651,6 @@
 
             btn.classList.add('best-sellers__btn-cart--added');
 
-            // Триггеры для обновления корзины в теме
             document.dispatchEvent(new CustomEvent('cart:updated'));
             window.dispatchEvent(new Event('cart:refresh'));
 
